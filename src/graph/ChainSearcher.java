@@ -50,13 +50,4 @@ public class ChainSearcher {
     public Vector<Integer> getChain() {
         return chain;
     }
-/*
-    public static void main(String[] args) {
-        int[][] a = {{0, 1, 1, 0}, {1, 0, 1, 1}, {1, 1, 0, 0}, {0, 1, 0, 0} };
-        ChainSearcher searcher = new ChainSearcher(a);
-        System.out.println(searcher.isChainFound());
-        System.out.println(searcher.getChain());
-
-    }
-*/
 }
