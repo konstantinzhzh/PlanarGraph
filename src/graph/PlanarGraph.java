@@ -14,7 +14,7 @@ public class PlanarGraph extends Graph {
         try {
             embedPlanarGraph(matrix);
 
-            System.out.println("GRAPH IS PLANAR \n THERE ARE FACES :");
+            System.out.println("CREATED PLANAR GRAPH \n THERE ARE FACES :");
             for (Face face : faces) {
                 System.out.println(face);
             }
